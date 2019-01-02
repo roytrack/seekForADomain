@@ -1,9 +1,9 @@
 package com.dingtalk.chatbot.demo;
 
-import com.dingtalk.chatbot.DingtalkChatbotClient;
-import com.dingtalk.chatbot.SendResult;
-import com.dingtalk.chatbot.message.FeedCardMessage;
-import com.dingtalk.chatbot.message.FeedCardMessageItem;
+import com.roytrack.whois.DingtalkChatbotClient;
+import com.roytrack.whois.SendResult;
+import com.roytrack.message.FeedCardMessage;
+import com.roytrack.message.FeedCardMessageItem;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,9 +1,8 @@
-package com.dingtalk.chatbot.message;
+package com.roytrack.message;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

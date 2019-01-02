@@ -1,8 +1,8 @@
 package com.dingtalk.chatbot.demo;
 
-import com.dingtalk.chatbot.DingtalkChatbotClient;
-import com.dingtalk.chatbot.SendResult;
-import com.dingtalk.chatbot.message.TextMessage;
+import com.roytrack.whois.DingtalkChatbotClient;
+import com.roytrack.whois.SendResult;
+import com.roytrack.message.TextMessage;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -25,9 +25,9 @@ public class TextMessageTest {
     public void testSendTextMessageWithAt() throws Exception {
         TextMessage message = new TextMessage("我就是我, 是不一样的烟火");
         ArrayList<String> atMobiles = new ArrayList<String>();
-        atMobiles.add("137xxxx3310");
+        atMobiles.add("18600130278");
         message.setAtMobiles(atMobiles);
-
+        
         SendResult result = client.send(TestConfig.CHATBOT_WEBHOOK, message);
         System.out.println(result);
     }

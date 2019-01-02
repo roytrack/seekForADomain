@@ -1,8 +1,8 @@
 package com.dingtalk.chatbot.demo;
 
-import com.dingtalk.chatbot.DingtalkChatbotClient;
-import com.dingtalk.chatbot.SendResult;
-import com.dingtalk.chatbot.message.MarkdownMessage;
+import com.roytrack.whois.DingtalkChatbotClient;
+import com.roytrack.whois.SendResult;
+import com.roytrack.message.MarkdownMessage;
 import org.junit.Test;
 
 import java.net.URLEncoder;

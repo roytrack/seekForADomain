@@ -1,4 +1,4 @@
-package com.dingtalk.chatbot.message;
+package com.roytrack.message;
 
 /**
  * Created by dustin on 2017/3/17.

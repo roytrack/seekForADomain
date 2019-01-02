@@ -1,10 +1,10 @@
 package com.dingtalk.chatbot.demo;
 
-import com.dingtalk.chatbot.DingtalkChatbotClient;
-import com.dingtalk.chatbot.SendResult;
-import com.dingtalk.chatbot.message.ActionButtonStyle;
-import com.dingtalk.chatbot.message.ActionCardAction;
-import com.dingtalk.chatbot.message.ActionCardMessage;
+import com.roytrack.whois.DingtalkChatbotClient;
+import com.roytrack.whois.SendResult;
+import com.roytrack.message.ActionButtonStyle;
+import com.roytrack.message.ActionCardAction;
+import com.roytrack.message.ActionCardMessage;
 import org.junit.Test;
 
 import java.net.URLEncoder;

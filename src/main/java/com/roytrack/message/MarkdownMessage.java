@@ -1,4 +1,4 @@
-package com.dingtalk.chatbot.message;
+package com.roytrack.message;
 
 import com.alibaba.fastjson.JSON;
 

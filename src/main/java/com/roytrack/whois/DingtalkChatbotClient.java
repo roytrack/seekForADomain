@@ -1,7 +1,7 @@
-package com.dingtalk.chatbot;
+package com.roytrack.whois;
 
 import com.alibaba.fastjson.JSONObject;
-import com.dingtalk.chatbot.message.Message;
+import com.roytrack.message.Message;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;

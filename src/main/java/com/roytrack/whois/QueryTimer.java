@@ -1,6 +1,7 @@
 package com.roytrack.whois;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 import com.aliyuncs.DefaultAcsClient;
@@ -51,9 +52,9 @@ public class QueryTimer {
           atMobiles.add(ParamConst.AT_MOBILE);
           message.setAtMobiles(atMobiles);
           SendResult result = ddclient.send(ParamConst.WEB_HOOK, message);
-          System.out.println(result);
+          System.out.println(LocalDateTime.now().toString()+"  "+result);
         }
-        System.out.println("this round result is "+sb.toString());
+        System.out.println(LocalDateTime.now().toString()+"  this round result is "+sb.toString());
       } catch (ClientException | IOException e) {
         System.out.println("error occur");
         e.printStackTrace();
